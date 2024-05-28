@@ -1,0 +1,55 @@
+html{
+    width: 60%;
+    height: fit-content;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: #FEB941;
+    border: blue inset 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+    font-size: 50px;
+    letter-spacing: 2px;
+    transform: scale(1, 2);
+    background-image: url("cover-page.png");
+}
+    
+    nav {
+    	text-align:center;
+    	background: rgb(36, 71, 228);
+    	color:rgb(184, 64, 17);
+    	font-size:140%;
+    	font-family:Arial, Helvetica, sans-serif;
+        border-bottom-left-radius: 120px;
+        border-bottom-right-radius: 120px;
+        height: 150px;
+        align-content: center;
+        
+    }
+    nav li {
+        list-style:none;  
+    	display: inline-block;
+    	vertical-align:bottom;
+    	text-transform:uppercase;
+        border: white 2px solid;
+        width: fit-content;
+        padding: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+      
+   

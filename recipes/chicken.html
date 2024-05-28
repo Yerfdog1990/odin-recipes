@@ -4,51 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chicken-recipe</title>
+    <link href="./chicken.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Jacquard+24+Charted&family=Protest+Guerrilla&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Crispy Fried Chicken</h1>
+        <div>
+            <h1 class="heading">Crispy Fried Chicken</h1>
             <img src="./Crispy-Fried-Chicken.png" alt="Crispy Fried Chicken">
-            <p>This is the only crispy fried chicken recipe you'll ever need. Why? It combines all the tried-and-true tricks to ensure the juiciest, most flavorful, crispiest chicken every time.</p>
-        <hr>
-        <h2>Summary of the recipe</h2>
-            <div class="Summary">
+            <p>This is the only crispy fried chicken recipe you'll ever need. Guess why?</p>
+            <p>Because it combines all the tried-and-true tricks to ensure the juiciest, most flavorful, crispiest chicken every time.</p>
+            <hr>
+            <h2>Summary of the recipe</h2>
+            <div class="flex-box">
+                <div class="Summary">
                 <h3>Prep Time:</h3>
                 <p>15 mins</p>
+                </div>
+                <div class="Summary">
+                    <h3>Cook Time:</h3>
+                    <p>35 mins</p>
+                </div>
+                <div class="Summary">
+                    <h3>Additional Time:</h3>
+                    <p>30 mins</p>
+                </div>
+                <div class="Summary">
+                    <h3>Total Time:</h3>
+                    <p>1 hr 20 mins</p>
+                </div>
+                <div class="Summary">
+                    <h3>Servings:</h3>
+                    <p>8</p>
             </div>
-            <div class="Summary">
-                <h3>Cook Time:</h3>
-                <p>35 mins</p>
-            </div>
-            <div class="Summary">
-                <h3>Additional Time:</h3>
-                <p>30 mins</p>
-            </div>
-            <div class="Summary">
-                <h3>Total Time:</h3>
-                <p>1 hr 20 mins</p>
-            </div>
-            <div class="Summary">
-                <h3>Servings:</h3>
-                <p>8</p>
-            </div>
+        </div>
         <hr>
         <h2>Nutritional Facts <span style="font-size: medium;">(per serving)</span></h2>
-        <div class="Nutrinents">
-            <h3>489</h3>
-            <p>Calories</p>
-        </div>
-        <div class="Nutrinents">
-            <h3>30g</h3>
-            <p>Cab</p>
-        </div>
-        <div class="Nutrinents">
-            <h3>422g</h3>
-            <p>Fat</p>
-        </div>
-        <div class="Nutrinents">
-            <h3>41g</h3>
-            <p>Protein</p>
+        <div class="flex-box">
+            <div class="Nutrinents">
+                <h3>489</h3>
+                <p>Calories</p>
+            </div>
+            <div class="Nutrinents">
+                <h3>30g</h3>
+                <p>Cab</p>
+            </div>
+            <div class="Nutrinents">
+                <h3>422g</h3>
+                <p>Fat</p>
+            </div>
+            <div class="Nutrinents">
+                <h3>41g</h3>
+                <p>Protein</p>
+            </div>
         </div>
     </header>
     <hr>
@@ -92,10 +100,11 @@
         </ol>
     </section>
     <hr>
-    <article class="Note">
-        <h3>Editor's Note:</h3>
+    <article>
+        <h2>Editor's Note:</h2>
         <p>We have determined the nutritional value of oil for frying based on a retention value of 10% after cooking. The exact amount may vary depending on cook time and temperature, ingredient density, and the specific type of oil used.</p>
     </article>
+    <hr>
     <footer>@2024 Allrecipes.com</footer>
 </body>
 </html>
